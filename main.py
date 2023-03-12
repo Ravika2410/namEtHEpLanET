@@ -3,6 +3,13 @@ img=cv2.imread("solarsystem.jpg")
 print(img,len(img))
 
 cv2.putText(img,
+            "Sun",
+            (110,325),
+            cv2.FONT_HERSHEY_SIMPLEX,
+            0.4,
+            (255, 255, 255))
+
+cv2.putText(img,
             "Mercury",
             (120,245),
             cv2.FONT_HERSHEY_SIMPLEX,
